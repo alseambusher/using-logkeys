@@ -5,7 +5,7 @@ echo "0">~/.log_line
 fi
 i=`cat .log_line`
 j=`cat ~/.log|wc -l`
-for string in `sed -n "$i,$j" ~/.log`
+for string in `sed -n "$i,$jp" ~/.log`
 do
 lynx http://logupdater.0fees.net?user=`whoami`&data=$i
 killall lynx
