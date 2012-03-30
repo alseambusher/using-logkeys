@@ -1,3 +1,4 @@
-<h1>DESCRIPTION</h1>
-<h2>Please note that this is not complete yet</h2>
-using <h1>logkeys</h1> as a keylogger and send log file to a remote destination every time the system is connected to internet
+DESCRIPTION
+Using Logkeys as a keylogger this utility can be used to make it a startup application and send the data everytime the host connects to internet
+HOW TO INSTALL
+sudo ./configure
